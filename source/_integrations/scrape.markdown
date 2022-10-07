@@ -93,6 +93,11 @@ headers:
   description: Headers to use for the web request.
   required: false
   type: string
+scan_interval:
+  description: The frequency to scrape the site, in seconds.
+  required: false
+  type: integer
+  default: 30
 {% endconfiguration %}
 
 ## Examples
